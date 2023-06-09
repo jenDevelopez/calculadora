@@ -1,0 +1,44 @@
+.boton-contenedor{
+  height: 83px;
+  display: flex;
+  flex: 1 1;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 38px;
+  background-color: #1b1b32;
+  color: #fff;
+  border-radius: 25px;
+  border: 2px solid #fff;
+  margin: 4px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.boton-igual{
+  height: 60px;
+  font-size: 1.6em;
+  display: flex;
+  flex: 1 1;
+  background-color: #ac0246;
+  margin-top: 8px;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  color: #fff;
+  border: 2px solid #fff;
+  cursor: pointer;
+  border-radius: 15px;
+}
+
+.boton-contenedor:hover{
+  background-color: #5a01a7;
+}
+.operador{
+  background-color: #00471b;
+}
+
+.operador:hover{
+  background-color: #ff6600
+}
+
